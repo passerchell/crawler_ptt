@@ -1,0 +1,20 @@
+[project]
+name = "ptt-crawler"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "fake-useragent>=2.2.0",
+    "lxml>=5.4.0",
+    "pandas>=2.2.3",
+    "requests>=2.32.4",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "flake8>=7.2.0",
+    "pytest>=8.4.1",
+]
